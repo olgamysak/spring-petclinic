@@ -28,6 +28,10 @@ Or you can run it from Maven directly using the Spring Boot Maven plugin. If you
 ```
 ./mvnw spring-boot:run
 ```
+To run with activated mysql profile:
+```
+./mvnw spring-boot:run -Dspring-boot.run.profiles=mysql
+```
 
 ## In case you find a bug/suggested improvement for Spring Petclinic
 Our issue tracker is available here: https://github.com/spring-projects/spring-petclinic/issues
